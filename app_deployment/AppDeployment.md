@@ -14,7 +14,10 @@
 
 ![images/image1.png](images/image1.png)
 
-5. Deploy the app:  step 3 in the tutorial shows how to deploy the shiny app by R
+5. Deploy the app:  step 3 in the tutorial shows how to deploy the shiny app by R as
+```r
+rconnect::deployApp('path_to_app',account="qtl-rocks")
+```
 
 ![images/image2.png](images/image2.png)
 
